@@ -841,3 +841,96 @@ body{
   font-weight:700;
   margin-bottom:15px;
 }
+@media (max-width: 768px){
+
+  .navbar{
+    padding:15px 20px;
+  }
+
+  .navbar ul{
+    display:none;
+  }
+
+  .hero{
+    flex-direction:column;
+    padding:120px 20px 60px;
+    gap:40px;
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:3rem;
+    line-height:1.1;
+  }
+
+  .hero-text{
+    font-size:1rem;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .hero-card{
+    min-width:100%;
+    width:100%;
+    padding:25px;
+  }
+
+  .hero-right{
+    width:100%;
+  }
+
+  .categories{
+    grid-template-columns:1fr;
+    padding:60px 20px;
+  }
+
+  .section,
+  .contact-section,
+  .education-section,
+  .skills-section,
+  .achievement-section{
+    padding:60px 20px;
+  }
+
+  .education-title,
+  .skills-title,
+  .achievement-title,
+  .contact-title,
+  .projects-title{
+    font-size:2.5rem;
+  }
+
+  .project-category h3{
+    font-size:2rem;
+  }
+
+  .stats{
+    grid-template-columns:1fr;
+  }
+
+  .education-grid,
+  .contact-grid,
+  .achievement-grid,
+  .skills-container{
+    grid-template-columns:1fr;
+  }
+
+  .project-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero-card img,
+  img{
+    max-width:100%;
+    height:auto;
+  }
+
+  .shape1,
+  .shape2,
+  .shape3{
+    display:none;
+  }
+}
